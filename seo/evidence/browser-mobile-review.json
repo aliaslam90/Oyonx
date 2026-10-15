@@ -1,0 +1,30 @@
+[
+  {
+    "bodyWidth": 390,
+    "brandScripts": 1,
+    "forms": 0,
+    "path": "/about-us",
+    "width": 390
+  },
+  {
+    "bodyWidth": 390,
+    "brandScripts": 1,
+    "forms": 1,
+    "path": "/contact-us",
+    "width": 390
+  },
+  {
+    "bodyWidth": 390,
+    "brandScripts": 1,
+    "forms": 1,
+    "path": "/services/ui-ux",
+    "width": 390
+  },
+  {
+    "bodyWidth": 390,
+    "brandScripts": 1,
+    "forms": 0,
+    "path": "/blog",
+    "width": 390
+  }
+]

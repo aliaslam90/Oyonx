@@ -1,0 +1,1 @@
+import{u as n,j as s,S as t,P as a,a as e,I as c,C as i}from"./index-4d06a083a3ff.js";function o(){return n(a.contact),s.jsxs(s.Fragment,{children:[s.jsx(t,{children:a.contact.h1}),s.jsx(e,{links:c.contact}),s.jsx("main",{id:"main",className:"pt-24 min-h-screen",children:s.jsx(i,{})})]})}export{o as ContactPage};
