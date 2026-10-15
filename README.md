@@ -32,6 +32,10 @@ php tests/inquiry.php
 
 All 54 inquiry checks passed using the isolated PHP WASM CLI on 15 October 2026. All 11 Apache routing, asset and access checks passed. JavaScript syntax checks, corrected homepage copy and a lazy-loaded service page also passed in the local browser. The corrected frontend uses a new asset filename, with lazy-loaded module references updated, to avoid stale cached copy. Footer copyright uses the current year automatically.
 
+## Brand entity SEO
+
+The linked `WebSite` and `Organization` / `ProfessionalService` graph is embedded directly in the HTML head and remains present across client-side routes. Its editable source is `seo/brand-entity.json`. After changing it, run `node scripts/update-brand-schema.mjs`, then `node tests/brand-schema.mjs`. See `seo/AUDIT.md` for the extracted brand evidence, metadata locations, verification and deployment follow-up.
+
 ## Source limitation
 
 The supplied snapshot contains no original React source, source maps, package manifest or build configuration. Nearby Oyonx folders checked did not contain this source either. The copy corrections were applied narrowly to the compiled bundle; this is not a reconstructed source project. Obtain the original source project before substantial frontend development. No valid React rebuild command can be supplied until that project is available.
