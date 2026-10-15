@@ -2,7 +2,7 @@
 
 Review branch: `fix/google-indexing-audit`.
 Baseline production HTML: `a68ba1b5bf4ec37ea2afb489756e958983dae197` (byte-for-byte homepage comparison at audit time).
-Implementation commit: recorded after review-branch publication below.
+Implementation commit: `6f9d399a81303f3e7c0d42728c1a8f2dd9ea8b6f` (review branch; documentation may follow in a later commit).
 
 ## Status
 
