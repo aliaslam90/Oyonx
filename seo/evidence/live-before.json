@@ -1,0 +1,722 @@
+{
+  "observedAt": "2026-10-15T13:41:15.150Z",
+  "results": [
+    {
+      "id": 0,
+      "url": "https://oyonx.com/",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:08 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: c8be21be69497f5f238f30851e23bc3a-nme-edge14\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.239",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 1,
+      "url": "https://www.oyonx.com/",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://www.oyonx.com/",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "77.37.48.132",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:08 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: fc6b897e4af58e3d1cc38311dbafae89-nme-edge14\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.239",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 2,
+      "url": "http://oyonx.com/",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/",
+      "redirects": 1,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/1.1 301 Moved Permanently",
+          "location": "https://oyonx.com/"
+        },
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:08 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 419f9eadbfbb9d745f167ced66c7f05b-nme-edge12\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.234",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 3,
+      "url": "http://www.oyonx.com/",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://www.oyonx.com/",
+      "redirects": 1,
+      "sslVerify": 0,
+      "remoteIP": "77.37.48.132",
+      "chain": [
+        {
+          "status": "HTTP/1.1 301 Moved Permanently",
+          "location": "https://www.oyonx.com/"
+        },
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:09 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: e69dd51d60acff6f57d7e12a2ed3b674-nme-edge14\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.250",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 4,
+      "url": "https://oyonx.com/robots.txt",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/robots.txt",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "77.37.48.250",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:10 GMT\r\ncontent-type: text/plain\r\ncontent-length: 63\r\nvary: Accept-Encoding\r\ncache-control: public, max-age=2592000\r\nexpires: Thu, 12 Nov 2026 13:02:19 GMT\r\nlast-modified: Wed, 01 Jul 2026 06:16:58 GMT\r\netag: \"3f-6a44b0da-bf06881d686fa0a;;;\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nx-content-type-options: nosniff\r\nx-frame-options: SAMEORIGIN\r\nreferrer-policy: strict-origin-when-cross-origin\r\nage: 175130\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 526740b6be95185deaaf60fb1636e6e2-nme-edge12\r\nx-hcdn-cache-status: MISS\r\nx-hcdn-upstream-rt: 0.234\r\naccept-ranges: bytes",
+      "bytes": 63,
+      "sha256": "b2a8dc502a6a692c66a7558fb7fb38cceb2a9a603dd77c045963750c70c2d1b8",
+      "emptyRoot": false,
+      "brandGraph": false,
+      "h1": 0,
+      "anchors": 0
+    },
+    {
+      "id": 5,
+      "url": "https://oyonx.com/sitemap.xml",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/sitemap.xml",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "77.37.48.250",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:09 GMT\r\ncontent-type: application/xml\r\nvary: Accept-Encoding\r\ncache-control: public, max-age=2592000\r\nexpires: Thu, 12 Nov 2026 21:04:48 GMT\r\nlast-modified: Wed, 01 Jul 2026 06:16:58 GMT\r\netag: W/\"b6c-6a44b0da-dbde24743200ef9c;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nx-content-type-options: nosniff\r\nx-frame-options: SAMEORIGIN\r\nreferrer-policy: strict-origin-when-cross-origin\r\nage: 146181\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 0d86a69b5df5276fdcf6916531f740cc-nme-edge15\r\nx-hcdn-cache-status: HIT",
+      "bytes": 2924,
+      "sha256": "1fdd1c8634e490b718a0b502be2287e691a41df1fe4d1630aef4a36039a2b698",
+      "emptyRoot": false,
+      "brandGraph": false,
+      "h1": 0,
+      "anchors": 0
+    },
+    {
+      "id": 6,
+      "url": "https://oyonx.com/logo.png",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/logo.png",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "77.37.48.250",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:10 GMT\r\ncontent-type: image/png\r\ncontent-length: 30306\r\naccess-control-allow-methods: GET, OPTIONS\r\naccess-control-allow-origin: *\r\ncache-control: public, max-age=604800\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: a28783844c9fd5d975a5f92780098d09-nme-edge11\r\nx-hcdn-cache-status: MISS\r\nx-hcdn-upstream-rt: 0.253\r\naccept-ranges: bytes",
+      "bytes": 30306,
+      "sha256": "1cb76fb250136e840be4fc9d1446c728e3e929bdd5dc42a126d2189c5e59b008",
+      "emptyRoot": false,
+      "brandGraph": false,
+      "h1": 0,
+      "anchors": 0
+    },
+    {
+      "id": 7,
+      "url": "https://oyonx.com/about",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/about",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "77.37.48.250",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:10 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 352613404893c1230bdfe4e462162b36-nme-edge13\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.258",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 8,
+      "url": "https://oyonx.com/services",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/services",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:11 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 60574896e835f6aa320050f10299eae7-nme-edge13\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.233",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 9,
+      "url": "https://oyonx.com/portfolio",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/portfolio",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:11 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 9a0b3a58072d8ef5cb804296f6f5cb0c-nme-edge11\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.234",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 10,
+      "url": "https://oyonx.com/plans",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/plans",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:11 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 8c84181b395e0a9df37d31ca7e8d1778-nme-edge13\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.234",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 11,
+      "url": "https://oyonx.com/contact",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/contact",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:11 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: eaa17bb674fc8f24da9c57ea416eada0-nme-edge15\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.251",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 12,
+      "url": "https://oyonx.com/services/ui-ux",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/services/ui-ux",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:12 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 8696b096d19dd90098574f91ecd457e8-nme-edge13\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.403",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 13,
+      "url": "https://oyonx.com/services/development",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/services/development",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:12 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: e34dcaa27fe9b0f48c31e3707a227229-nme-edge15\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.255",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 14,
+      "url": "https://oyonx.com/services/marketing",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/services/marketing",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:12 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 850f8e34817501adf09e774448f6f457-nme-edge13\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.233",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 15,
+      "url": "https://oyonx.com/about-us",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/about-us",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:12 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: d4e45071cf24b53227f7050df42dc4ba-nme-edge13\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.376",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 16,
+      "url": "https://oyonx.com/contact-us",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/contact-us",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:13 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 45c77466e774160837b5b488bc8dd1d4-nme-edge14\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.263",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 17,
+      "url": "https://oyonx.com/blog",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/blog",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:13 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: dd47cd7a7261c949cbb4107a55b22030-nme-edge12\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.243",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 18,
+      "url": "https://oyonx.com/blog/website-cost-dubai-2025",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/blog/website-cost-dubai-2025",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:13 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: ec0d8b7453f6acce6a10c5dadb4226dd-nme-edge14\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.247",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 19,
+      "url": "https://oyonx.com/blog/ui-ux-design-mistakes",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/blog/ui-ux-design-mistakes",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:13 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: d64dc796d91b69ea58b32c76dd920312-nme-edge13\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.233",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 20,
+      "url": "https://oyonx.com/blog/web-development-agency-uae",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/blog/web-development-agency-uae",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:14 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 40e914ff469065f0f792ee06a0ece7ea-nme-edge14\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.258",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 21,
+      "url": "https://oyonx.com/blog/digital-marketing-dubai-2025",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/blog/digital-marketing-dubai-2025",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:14 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 8c0f731a7f5bf25dd1645155316b7228-nme-edge12\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.250",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 22,
+      "url": "https://oyonx.com/blog/what-is-a-design-system",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/blog/what-is-a-design-system",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:14 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 44ae8224a52627ae1f5dc63432bb8254-nme-edge11\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.250",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 23,
+      "url": "https://oyonx.com/seo-audit-not-a-real-page-20261015",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/seo-audit-not-a-real-page-20261015",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:14 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 40e287fd68261b64f600ee46f8bec750-nme-edge11\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.248",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 24,
+      "url": "https://oyonx.com/services/not-a-real-service",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 200,
+      "final": "https://oyonx.com/services/not-a-real-service",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:15 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: ca5acd4423e4371d486ef054a71ca8cb-nme-edge15\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.265",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    },
+    {
+      "id": 25,
+      "url": "https://oyonx.com/assets/not-a-real-file.js",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 404,
+      "final": "https://oyonx.com/assets/not-a-real-file.js",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 404"
+        }
+      ],
+      "headers": "HTTP/2 404 \r\ndate: Thu, 15 Oct 2026 13:41:14 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Tue, 22 Apr 2025 07:41:12 GMT\r\netag: W/\"119f-68074818-b2c64f1f2f1e878e;gz\"\r\ncontent-security-policy: upgrade-insecure-requests\r\nplatform: hostinger\r\npanel: hpanel\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: 79709032f59b0648bdbc48a1d9cf5083-nme-edge12",
+      "bytes": 4511,
+      "sha256": "e7db95c97a5d45787cc3e40cbcb93b748fefc65bc14e162c746e37f979861729",
+      "title": "This Page Does Not Exist",
+      "emptyRoot": false,
+      "brandGraph": false,
+      "h1": 1,
+      "anchors": 0
+    },
+    {
+      "id": 26,
+      "url": "https://oyonx.com/send-inquiry.php",
+      "ua": "Mozilla/5.0 OyonxTechnicalAudit/1.0",
+      "status": 405,
+      "final": "https://oyonx.com/send-inquiry.php",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 405"
+        }
+      ],
+      "headers": "HTTP/2 405 \r\ndate: Thu, 15 Oct 2026 13:41:15 GMT\r\ncontent-type: application/json; charset=utf-8\r\nvary: Accept-Encoding\r\nx-powered-by: PHP/8.3.35\r\ncache-control: no-store\r\nx-content-type-options: nosniff\r\nallow: POST, OPTIONS\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: bbcdb983dce70be8f95ff87c127746f9-nme-edge14",
+      "bytes": 48,
+      "sha256": "b6723485d0e752f6e75e40417369ab8011f0e63b4a0839040b34d6999d019ea4",
+      "emptyRoot": false,
+      "brandGraph": false,
+      "h1": 0,
+      "anchors": 0
+    },
+    {
+      "id": 27,
+      "url": "https://oyonx.com/",
+      "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+      "status": 200,
+      "final": "https://oyonx.com/",
+      "redirects": 0,
+      "sslVerify": 0,
+      "remoteIP": "91.108.100.227",
+      "chain": [
+        {
+          "status": "HTTP/2 200"
+        }
+      ],
+      "headers": "HTTP/2 200 \r\ndate: Thu, 15 Oct 2026 13:41:14 GMT\r\ncontent-type: text/html\r\nvary: Accept-Encoding\r\nlast-modified: Thu, 15 Oct 2026 13:23:03 GMT\r\netag: W/\"1894-6ad0d3b7-48d38d94bc0da8ae;gz\"\r\nplatform: hostinger\r\npanel: hpanel\r\ncontent-security-policy: upgrade-insecure-requests\r\nserver: hcdn\r\nalt-svc: h3=\":443\"; ma=86400\r\nx-hcdn-request-id: f9565a3fe41f0bc996dadd0541e4ea70-nme-edge13\r\nx-hcdn-cache-status: DYNAMIC\r\nx-hcdn-upstream-rt: 0.234",
+      "bytes": 6292,
+      "sha256": "66b6148e47a1c8f41b95ec68e40e4d5d284e486be082b01c9cbcd06d7261d2e3",
+      "canonical": "https://oyonx.com/",
+      "title": "UI/UX Design Agency UAE &amp; Web Design Company Dubai | Oyonx",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "emptyRoot": true,
+      "brandGraph": true,
+      "h1": 0,
+      "anchors": 0,
+      "script": "/assets/index-4c2654fe317b.js"
+    }
+  ]
+}

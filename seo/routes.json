@@ -1,0 +1,134 @@
+[
+  {
+    "id": "home",
+    "path": "/",
+    "title": "Oyonx | UI/UX Design & Web Development Agency in Dubai",
+    "description": "Oyonx is a Dubai-based digital agency specialising in UI/UX design, website development and custom web applications for startups and growing businesses in the UAE.",
+    "h1": "Oyonx — UI/UX Design & Web Development Agency in Dubai",
+    "ogTitle": "Oyonx | UI/UX Design & Web Development Agency in Dubai",
+    "ogDescription": "Oyonx is a Dubai-based digital agency specialising in UI/UX design, website development and custom web applications for startups and growing businesses in the UAE.",
+    "twitterTitle": "Oyonx | UI/UX Design & Web Development Agency in Dubai",
+    "twitterDescription": "Oyonx is a Dubai-based digital agency specialising in UI/UX design, website development and custom web applications for startups and growing businesses in the UAE."
+  },
+  {
+    "id": "services-ui-ux",
+    "path": "/services/ui-ux",
+    "title": "UI UX Design Services Dubai | UX Design Agency UAE | Oyonx",
+    "description": "Expert UI/UX design services in Dubai & the UAE. User research, wireframes, prototypes & design systems. Hire a senior UX team — book a free call.",
+    "h1": "UI UX Design Services Dubai — UX Design Agency UAE",
+    "ogTitle": "UI UX Design Services Dubai | UX Design Agency UAE",
+    "ogDescription": "Research-led UI/UX design for startups & businesses in Dubai and the UAE. Interfaces users love and businesses grow from.",
+    "twitterTitle": "UI UX Design Services Dubai | Oyonx",
+    "twitterDescription": "Senior UI/UX design team in the UAE. Research, prototyping, design systems & usability testing. Book a free discovery call."
+  },
+  {
+    "id": "services-development",
+    "path": "/services/development",
+    "title": "Web Development Company Dubai | App Development UAE | Oyonx",
+    "description": "Full-stack web & app development in Dubai & the UAE. Frontend, backend, APIs & mobile apps built to scale. Get a project quote — book a free call.",
+    "h1": "Web Development Company Dubai — App Development UAE",
+    "ogTitle": "Web Development Company Dubai | App Development UAE",
+    "ogDescription": "Reliable web & app development for UAE businesses. Frontend, backend, full stack & mobile — built to perform and scale.",
+    "twitterTitle": "Web Development Company Dubai | Oyonx",
+    "twitterDescription": "Dubai web & app development agency. Full stack, APIs, mobile apps & cloud solutions. Book a free project consultation."
+  },
+  {
+    "id": "services-marketing",
+    "path": "/services/marketing",
+    "title": "Digital Marketing Agency Dubai | SEO Agency UAE | Oyonx",
+    "description": "Results-driven digital marketing in Dubai & the UAE. SEO, paid ads, content & social media that bring the right customers. Book a free strategy call.",
+    "h1": "Digital Marketing Agency Dubai — SEO Agency UAE",
+    "ogTitle": "Digital Marketing Agency Dubai | SEO Agency UAE",
+    "ogDescription": "Integrated digital marketing for UAE brands. SEO, content, paid ads & social — planned together for measurable growth.",
+    "twitterTitle": "Digital Marketing Agency Dubai | Oyonx",
+    "twitterDescription": "Dubai digital marketing & SEO agency. Search, social, content & conversion optimisation for UAE & global brands."
+  },
+  {
+    "id": "about",
+    "path": "/about-us",
+    "title": "Design Studio Abu Dhabi & Dubai | About Oyonx | Oyonx",
+    "description": "Meet Oyonx — a design studio serving Abu Dhabi, Dubai & the UAE. Senior designers & developers building digital products that grow. Learn about our team.",
+    "h1": "Design Studio Abu Dhabi — About Oyonx",
+    "ogTitle": "Design Studio Abu Dhabi & Dubai | About Oyonx",
+    "ogDescription": "Oyonx is a design-first studio in the UAE. Senior team, fast delivery, 200+ projects delivered across Dubai, Abu Dhabi & globally.",
+    "twitterTitle": "About Oyonx | Design Studio UAE",
+    "twitterDescription": "Learn about Oyonx — a UAE design studio helping startups & businesses with UI/UX, development & marketing."
+  },
+  {
+    "id": "contact",
+    "path": "/contact-us",
+    "title": "Hire UI UX Designer UAE | Contact Web Design Agency Dubai",
+    "description": "Hire a UI/UX designer in the UAE or contact our Dubai web design agency. Free 30-min strategy call — we reply within one business day. Start your project.",
+    "h1": "Hire UI UX Designer UAE — Contact Web Design Agency Dubai",
+    "ogTitle": "Hire UI UX Designer UAE | Contact Oyonx Dubai",
+    "ogDescription": "Ready to start? Contact Oyonx for UI/UX design, web development & digital marketing in the UAE. Book a free 30-minute call.",
+    "twitterTitle": "Contact Oyonx | Hire UI/UX Designer UAE",
+    "twitterDescription": "Contact our Dubai web design agency. Free strategy call, reply within one business day. WhatsApp, email or Calendly."
+  },
+  {
+    "id": "blog",
+    "path": "/blog",
+    "title": "Oyonx Blog | UI/UX, Web Development & Marketing Insights UAE",
+    "description": "Expert guides on web design, UI/UX, development, and digital marketing in Dubai and the UAE. Practical advice from the Oyonx team.",
+    "h1": "Oyonx Blog — Design, Development & Marketing Insights",
+    "ogTitle": "Oyonx Blog | Design & Digital Growth Insights",
+    "ogDescription": "Guides and insights on UI/UX, web development, and digital marketing for UAE businesses.",
+    "twitterTitle": "Oyonx Blog | UAE Digital Insights",
+    "twitterDescription": "Practical articles on web design, development, and marketing in Dubai and the UAE."
+  },
+  {
+    "id": "blog",
+    "path": "/blog/website-cost-dubai-2025",
+    "title": "Website Cost in Dubai 2025: Complete Pricing Guide | Oyonx",
+    "description": "How much does a website cost in Dubai in 2025? Pricing for landing pages, business sites, e-commerce & custom builds — with budget tips from Oyonx.",
+    "h1": "How Much Does a Website Cost in Dubai in 2025?",
+    "ogTitle": "Website Cost in Dubai 2025 — Full Pricing Guide",
+    "ogDescription": "Understand real website pricing in Dubai — from landing pages to custom development.",
+    "twitterTitle": "Website Cost Dubai 2025 | Oyonx",
+    "twitterDescription": "Complete guide to website pricing in Dubai and the UAE for 2025."
+  },
+  {
+    "id": "blog",
+    "path": "/blog/ui-ux-design-mistakes",
+    "title": "UI/UX Design Mistakes Costing You Customers | Oyonx",
+    "description": "Discover UI UX design mistakes that hurt conversions and how to fix navigation, mobile UX, forms, and speed without a full redesign.",
+    "h1": "UI/UX Design Mistakes That Are Costing Your Business Customers",
+    "ogTitle": "UI/UX Design Mistakes That Cost You Customers",
+    "ogDescription": "Fix common UX problems that lose leads — practical guide for UAE businesses.",
+    "twitterTitle": "UI UX Design Mistakes | Oyonx",
+    "twitterDescription": "Common UX mistakes and how to fix them before you lose more customers."
+  },
+  {
+    "id": "blog",
+    "path": "/blog/web-development-agency-uae",
+    "title": "How to Choose a Web Development Agency in the UAE | Oyonx",
+    "description": "Evaluate web development agencies in the UAE with confidence — portfolio, pricing, process, technical questions & red flags to avoid.",
+    "h1": "How to Choose the Right Web Development Agency in the UAE",
+    "ogTitle": "Choosing a Web Development Agency in the UAE",
+    "ogDescription": "What to ask, what to avoid, and how to pick the right development partner.",
+    "twitterTitle": "Web Development Agency UAE Guide | Oyonx",
+    "twitterDescription": "How to choose the right web development agency in the UAE."
+  },
+  {
+    "id": "blog",
+    "path": "/blog/digital-marketing-dubai-2025",
+    "title": "Digital Marketing Dubai 2025 Strategy Guide | Oyonx",
+    "description": "Why Dubai businesses need a digital marketing strategy in 2025 — SEO, content, social & paid channels explained with actionable steps.",
+    "h1": "Why Your Dubai Business Needs a Professional Digital Marketing Strategy in 2025",
+    "ogTitle": "Digital Marketing Strategy Dubai 2025",
+    "ogDescription": "Build an integrated digital marketing strategy for the UAE market in 2025.",
+    "twitterTitle": "Digital Marketing Dubai 2025 | Oyonx",
+    "twitterDescription": "Professional digital marketing strategy guide for Dubai businesses."
+  },
+  {
+    "id": "blog",
+    "path": "/blog/what-is-a-design-system",
+    "title": "What is a Design System? Guide for UAE Products | Oyonx",
+    "description": "What is a design system and why your product needs one — components, tokens, benefits & when to invest. From a design system agency in the UAE.",
+    "h1": "What is a Design System and Why Does Your Product Need One?",
+    "ogTitle": "What is a Design System? Complete Guide",
+    "ogDescription": "Learn how design systems help UAE product teams ship consistent UI faster.",
+    "twitterTitle": "Design System Guide UAE | Oyonx",
+    "twitterDescription": "Why design systems matter and when your product should adopt one."
+  }
+]
