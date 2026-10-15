@@ -7,6 +7,8 @@
 declare(strict_types=1);
 
 header('Content-Type: application/json; charset=utf-8');
+header('Cache-Control: no-store');
+header('X-Content-Type-Options: nosniff');
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(204);
@@ -14,6 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header('Allow: POST, OPTIONS');
     http_response_code(405);
     echo json_encode(['success' => false, 'message' => 'Method not allowed']);
     exit;
@@ -22,36 +25,46 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 const TO_EMAIL   = 'info@oyonx.com';
 const FROM_EMAIL = 'noreply@oyonx.com';
 
-$raw  = file_get_contents('php://input');
-$data = json_decode($raw ?: '', true);
+require_once __DIR__ . "/server/inquiry.php";
 
-if (!is_array($data)) {
-    http_response_code(400);
-    echo json_encode(['success' => false, 'message' => 'Invalid request body']);
+function respond(int $status, string $message): void
+{
+    http_response_code($status);
+    echo json_encode(["success" => false, "message" => $message]);
     exit;
 }
 
-if (!empty($data['honey'])) {
-    echo json_encode(['success' => true]);
-    exit;
+$contentType = strtolower(trim(explode(";", $_SERVER["CONTENT_TYPE"] ?? "")[0]));
+if ($contentType !== "application/json") {
+    respond(415, "Content-Type must be application/json.");
+}
+if ((int) ($_SERVER["CONTENT_LENGTH"] ?? 0) > OYONX_MAX_BODY_BYTES) {
+    respond(413, "Request body is too large.");
 }
 
-$name   = trim((string) ($data['name'] ?? ''));
-$email  = trim((string) ($data['email'] ?? ''));
-$phone  = trim((string) ($data['phone'] ?? ''));
-$vision = trim((string) ($data['vision'] ?? ''));
-
-if ($name === '' || $email === '') {
-    http_response_code(400);
-    echo json_encode(['success' => false, 'message' => 'Name and email are required.']);
-    exit;
+$rateDirectory = sys_get_temp_dir() . "/oyonx-inquiries-" . hash("sha256", __DIR__);
+if (!is_dir($rateDirectory) && !@mkdir($rateDirectory, 0700, true) && !is_dir($rateDirectory)) {
+    respond(503, "Enquiries are temporarily unavailable. Please email info@oyonx.com.");
+}
+$rate = oyonx_rate_limit($rateDirectory . "/requests.json", $_SERVER["REMOTE_ADDR"] ?? "unknown", time());
+if ($rate["status"] === 429) {
+    header("Retry-After: " . $rate["retry_after"]);
+    respond(429, "Too many enquiries. Please try again in a few minutes.");
+}
+if ($rate["status"] !== 200) {
+    respond(503, "Enquiries are temporarily unavailable. Please email info@oyonx.com.");
 }
 
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    http_response_code(400);
-    echo json_encode(['success' => false, 'message' => 'Invalid email address.']);
+$raw = file_get_contents("php://input", false, null, 0, OYONX_MAX_BODY_BYTES + 1);
+$result = oyonx_validate_inquiry($raw === false ? "" : $raw);
+if ($result["status"] !== 200) {
+    respond($result["status"], $result["message"]);
+}
+if (!empty($result["spam"])) {
+    echo json_encode(["success" => true]);
     exit;
 }
+["name" => $name, "email" => $email, "phone" => $phone, "vision" => $vision] = $result["fields"];
 
 $safeName  = preg_replace('/[\r\n]+/', ' ', $name);
 $safeEmail = preg_replace('/[\r\n]+/', '', $email);

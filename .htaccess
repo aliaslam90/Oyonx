@@ -1,0 +1,18 @@
+Options -Indexes -MultiViews
+DirectoryIndex index.html
+
+<FilesMatch "^(README\.md|package(?:-lock)?\.json|\.env.*)$">
+    Require all denied
+</FilesMatch>
+
+RewriteEngine On
+# Keep repository metadata and hidden configuration private; allow ACME challenges.
+RewriteRule (^|/)\.(?!well-known(?:/|$)) - [F,L]
+# Existing files (including PHP and assets) must bypass the SPA fallback.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+# Missing static files must remain 404s, rather than returning HTML as JavaScript.
+RewriteRule ^(?:assets|testimonials|server|tests)/ - [L]
+RewriteCond %{REQUEST_URI} !\.[^/]+$
+RewriteRule ^ index.html [L]
