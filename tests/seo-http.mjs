@@ -49,7 +49,7 @@ for(const path of ['/.git/config','/server/inquiry.php','/tests/inquiry.php','/R
 const robots=await get('/robots.txt');equal(robots.status,200,'robots');assert.match(robots.body,/Sitemap: https:\/\/oyonx.com\/sitemap.xml/);checks++;
 const sitemap=await get('/sitemap.xml');equal(sitemap.status,200,'sitemap');
 const urls=[...sitemap.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
-equal(urls.length,12,'distinct pages only');equal(new Set(urls).size,urls.length,'no duplicates');
+equal(urls.length,routes.length,'distinct pages only');equal(new Set(urls).size,urls.length,'no duplicates');
 equal(sitemap.body.includes('<lastmod>'),false,'no unverifiable modification dates');
 assert.deepEqual(urls,routes.map(r=>'https://oyonx.com'+r.path));checks++;
 equal((await get('/logo.png')).status,200,'logo');

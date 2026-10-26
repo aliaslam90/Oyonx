@@ -130,5 +130,16 @@
     "ogDescription": "Learn how design systems help UAE product teams ship consistent UI faster.",
     "twitterTitle": "Design System Guide UAE | Oyonx",
     "twitterDescription": "Why design systems matter and when your product should adopt one."
+  },
+  {
+    "id": "plugins",
+    "path": "/plugins",
+    "title": "Figma Plugins & Widgets | Oyonx",
+    "description": "Explore Oyonx Figma plugins and widgets for typography, color palettes, icons, sticky notes and mind mapping. Practical tools for better design workflows.",
+    "h1": "Figma plugins & widgets. Less busywork. More design.",
+    "ogTitle": "Figma Plugins & Widgets | Oyonx",
+    "ogDescription": "Explore Oyonx Figma plugins and widgets for typography, color palettes, icons, sticky notes and mind mapping. Practical tools for better design workflows.",
+    "twitterTitle": "Figma Plugins & Widgets | Oyonx",
+    "twitterDescription": "Explore Oyonx Figma plugins and widgets for typography, color palettes, icons, sticky notes and mind mapping. Practical tools for better design workflows."
   }
 ]

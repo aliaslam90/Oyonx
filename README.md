@@ -43,3 +43,7 @@ See `seo/GOOGLE-INDEXING-ROOT-CAUSE.md` and `seo/DEPLOYMENT-REPORT.md` for curre
 The supplied snapshot contains no original React source, source maps, package manifest or build configuration. Nearby Oyonx folders checked did not contain this source either. The copy corrections were applied narrowly to the compiled bundle; this is not a reconstructed source project. Obtain the original source project before substantial frontend development. No valid React rebuild command can be supplied until that project is available.
 
 Live deployment and delivery to the actual inquiry mailbox have not been verified by the local tests. After deploying, check a direct route reload and make one controlled inquiry to confirm hosting mail configuration and receipt.
+
+## Plugins page
+
+The local /plugins page uses the existing shared navigation and footer. Edit scripts/plugins/page.mjs, scripts/plugins/page.css and scripts/plugins/products.json, then run node scripts/build-plugins.mjs. See seo/PLUGINS-INTEGRATION.md for design provenance, verification and release limits.

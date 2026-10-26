@@ -1,0 +1,127 @@
+[
+  {
+    "slug": "font-replacer-pro",
+    "name": "Font Replacer Pro",
+    "category": "plugins",
+    "description": "Inspect the fonts in a Figma file, map old families and styles to new ones, then review and replace them in batches.",
+    "features": [
+      "Scan a selection, current page, selected pages or the whole file.",
+      "Map font families and styles, including mixed-font text ranges.",
+      "Review changes before replacing, with progress and cancellation."
+    ],
+    "status": "under-review",
+    "communityUrl": null,
+    "stats": null,
+    "statusVerifiedOn": "2026-10-26"
+  },
+  {
+    "slug": "stickynotes-pro",
+    "name": "Sticky Notes Widget Pro",
+    "category": "widgets",
+    "description": "Customizable sticky notes for Figma and FigJam, with templates, status labels and shared editing.",
+    "features": [
+      "24 preset colors, four sizes and eight speech-bubble tail positions.",
+      "Add status, priority and an icon to give each note context.",
+      "Start from 11 templates and edit with a shared popup editor."
+    ],
+    "status": "published",
+    "communityUrl": "https://www.figma.com/community/widget/1555148351182164297/sticky-notes-widget-pro",
+    "stats": {
+      "users": "1.5k",
+      "likes": "2",
+      "verifiedOn": "2026-10-26"
+    },
+    "statusVerifiedOn": "2026-10-26"
+  },
+  {
+    "slug": "design-system-creator",
+    "name": "Design System Creator",
+    "category": "plugins",
+    "description": "Audit a Figma file and turn its colors, typography, spacing and effects into reusable styles, variables and token exports.",
+    "features": [
+      "Audit colors, gradients, typography and effects across a chosen scope.",
+      "Review a plan before creating styles and native variables.",
+      "Export Tailwind theme CSS and design-token JSON."
+    ],
+    "status": "under-review",
+    "communityUrl": null,
+    "stats": null,
+    "statusVerifiedOn": "2026-10-26"
+  },
+  {
+    "slug": "fontstyle-pro",
+    "name": "FontStyle Pro",
+    "category": "plugins",
+    "description": "Scan source text, review typography and contrast, then generate a guide with optional local text styles and token exports.",
+    "features": [
+      "Scan a selection or the current page before generating a guide.",
+      "Review font families, missing-font warnings and contrast issues.",
+      "Export typography JSON, DTCG tokens or CSS custom properties."
+    ],
+    "status": "published",
+    "communityUrl": "https://www.figma.com/community/plugin/1533099377215634079/fontstyle-pro",
+    "stats": {
+      "users": "344",
+      "likes": "1",
+      "verifiedOn": "2026-10-26"
+    },
+    "statusVerifiedOn": "2026-10-26"
+  },
+  {
+    "slug": "colorstyle-pro",
+    "name": "ColorStyle Pro",
+    "category": "plugins",
+    "description": "Build and preview palettes, review Figma style and variable updates, and export color tokens for development.",
+    "features": [
+      "Generate six tints or ten tones, with individual tone edits.",
+      "Review style and variable changes before writing to the file.",
+      "Save palettes and export CSS, SCSS, JSON or DTCG tokens."
+    ],
+    "status": "published",
+    "communityUrl": "https://www.figma.com/community/plugin/1535595057762423080/colorstyle-pro",
+    "stats": {
+      "users": "188",
+      "likes": "1",
+      "verifiedOn": "2026-10-26"
+    },
+    "statusVerifiedOn": "2026-10-26"
+  },
+  {
+    "slug": "mindmap-pro",
+    "name": "MindMap Pro",
+    "category": "widgets",
+    "description": "A mind-mapping widget for Figma and FigJam, with connected nodes, layout tools and reusable templates.",
+    "features": [
+      "Organize connected ideas on your Figma or FigJam canvas.",
+      "Use built-in themes and templates to get started.",
+      "Adjust your map with node and layout controls."
+    ],
+    "status": "published",
+    "communityUrl": "https://www.figma.com/community/widget/1563085532429601427/mindmap-pro",
+    "stats": {
+      "users": "3.7k",
+      "likes": "46",
+      "verifiedOn": "2026-10-26"
+    },
+    "statusVerifiedOn": "2026-10-26"
+  },
+  {
+    "slug": "iconsset-pro",
+    "name": "IconsSet Pro",
+    "category": "plugins",
+    "description": "Search an SVG icon catalog, filter packs and styles, and insert icon kits or individual sizes into Figma.",
+    "features": [
+      "Search with fuzzy matching and filter the icon catalog.",
+      "Insert a size kit or choose a single icon size.",
+      "Copy SVG source or export SVG and host-generated PNG."
+    ],
+    "status": "published",
+    "communityUrl": "https://www.figma.com/community/plugin/1550127903541015998/iconsset-pro",
+    "stats": {
+      "users": "59",
+      "likes": null,
+      "verifiedOn": "2026-10-26"
+    },
+    "statusVerifiedOn": "2026-10-26"
+  }
+]
