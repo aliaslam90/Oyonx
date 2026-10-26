@@ -52,6 +52,8 @@ RewriteRule ^blog/digital-marketing-dubai-2025/$ /blog/digital-marketing-dubai-2
 RewriteRule ^blog/digital-marketing-dubai-2025$ seo-pages/blog--digital-marketing-dubai-2025.html [L]
 RewriteRule ^blog/what-is-a-design-system/$ /blog/what-is-a-design-system [R=301,L]
 RewriteRule ^blog/what-is-a-design-system$ seo-pages/blog--what-is-a-design-system.html [L]
+RewriteRule ^plugins/$ /plugins [R=301,L]
+RewriteRule ^plugins$ seo-pages/plugins.html [L]
 RewriteRule ^$ index.html [L]
 # OYONX ROUTES END
 # Never return the homepage for unknown routes or missing files.
