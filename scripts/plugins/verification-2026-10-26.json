@@ -1,0 +1,85 @@
+[
+  {
+    "slug": "font-replacer-pro",
+    "name": "Font Replacer Pro",
+    "url": "https://www.figma.com/community/plugin/1695448978183412204/font-replacer-pro",
+    "status": "under-review",
+    "checkedAt": "2026-10-26T15:49:00.243Z",
+    "stats": null,
+    "evidence": "Figma owner banner: Only you can see it while your plugin is in review."
+  },
+  {
+    "slug": "stickynotes-pro",
+    "name": "Sticky Notes Widget Pro",
+    "url": "https://www.figma.com/community/widget/1555148351182164297/sticky-notes-widget-pro",
+    "status": "published",
+    "checkedAt": "2026-10-26T15:49:12.830Z",
+    "stats": {
+      "users": "1.5k",
+      "likes": "2",
+      "verifiedOn": "2026-10-26"
+    },
+    "evidence": "Figma owner banner: Your resource is live; current title, type and usage count visible."
+  },
+  {
+    "slug": "design-system-creator",
+    "name": "Design System Creator",
+    "url": "https://www.figma.com/community/plugin/1695447163892867560/design-system-creator",
+    "status": "under-review",
+    "checkedAt": "2026-10-26T15:48:56.283Z",
+    "stats": null,
+    "evidence": "Figma owner banner: Only you can see it while your plugin is in review."
+  },
+  {
+    "slug": "fontstyle-pro",
+    "name": "FontStyle Pro",
+    "url": "https://www.figma.com/community/plugin/1533099377215634079/fontstyle-pro",
+    "status": "published",
+    "checkedAt": "2026-10-26T15:49:04.564Z",
+    "stats": {
+      "users": "344",
+      "likes": "1",
+      "verifiedOn": "2026-10-26"
+    },
+    "evidence": "Figma owner banner: Your resource is live; current title, type and usage count visible."
+  },
+  {
+    "slug": "colorstyle-pro",
+    "name": "ColorStyle Pro",
+    "url": "https://www.figma.com/community/plugin/1535595057762423080/colorstyle-pro",
+    "status": "published",
+    "checkedAt": "2026-10-26T15:49:21.063Z",
+    "stats": {
+      "users": "188",
+      "likes": "1",
+      "verifiedOn": "2026-10-26"
+    },
+    "evidence": "Figma owner banner: Your resource is live; current title, type and usage count visible."
+  },
+  {
+    "slug": "mindmap-pro",
+    "name": "MindMap Pro",
+    "url": "https://www.figma.com/community/widget/1563085532429601427/mindmap-pro",
+    "status": "published",
+    "checkedAt": "2026-10-26T15:49:17.111Z",
+    "stats": {
+      "users": "3.7k",
+      "likes": "46",
+      "verifiedOn": "2026-10-26"
+    },
+    "evidence": "Figma owner banner: Your resource is live; current title, type and usage count visible."
+  },
+  {
+    "slug": "iconsset-pro",
+    "name": "IconsSet Pro",
+    "url": "https://www.figma.com/community/plugin/1550127903541015998/iconsset-pro",
+    "status": "published",
+    "checkedAt": "2026-10-26T15:49:25.959Z",
+    "stats": {
+      "users": "59",
+      "likes": null,
+      "verifiedOn": "2026-10-26"
+    },
+    "evidence": "Figma owner banner: Your resource is live; current title, type and usage count visible."
+  }
+]

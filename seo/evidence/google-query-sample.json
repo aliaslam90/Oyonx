@@ -1,0 +1,84 @@
+{
+  "observedAt": "2026-10-15T13:47:15.073Z",
+  "scope": "Signed-in Google browser sample. Results are personalized and location dependent; not Search Console evidence.",
+  "results": [
+    {
+      "correction": "Did you mean: oyonnax",
+      "oyonxResults": [
+        {
+          "text": "Oyonx: UI/UX Design Agency UAE & Web Design Company ...\n\noyonx.com\nhttps://oyonx.com",
+          "url": "https://oyonx.com/"
+        },
+        {
+          "text": "Design Studio Abu Dhabi & Dubai | About Oyonx\n\noyonx.com\nhttps://www.oyonx.com › About",
+          "url": "https://www.oyonx.com/about-us"
+        },
+        {
+          "text": "Oyonx Blog | UI/UX, Web Development & Marketing Insights ...\n\noyonx.com\nhttps://oyonx.com › blog",
+          "url": "https://oyonx.com/blog"
+        }
+      ],
+      "query": "oyonx",
+      "title": "oyonx - Google Search"
+    },
+    {
+      "correction": "These are results for \"oyonnax\"\nSearch instead for \"oyonx\"",
+      "oyonxResults": [],
+      "query": "\"oyonx\"",
+      "title": "\"oyonx\" - Google Search"
+    },
+    {
+      "oyonxResults": [
+        {
+          "text": "Oyonx: UI/UX Design Agency UAE & Web Design Company ...\n\noyonx.com\nhttps://oyonx.com",
+          "url": "https://oyonx.com/"
+        }
+      ],
+      "query": "oyonx.com",
+      "title": "oyonx.com - Google Search"
+    },
+    {
+      "oyonxResults": [],
+      "query": "\"oyonx.com\"",
+      "title": "\"oyonx.com\" - Google Search"
+    },
+    {
+      "oyonxResults": [
+        {
+          "text": "Oyonx: UI/UX Design Agency UAE & Web Design Company ...\n\noyonx.com\nhttps://oyonx.com",
+          "url": "https://oyonx.com/"
+        },
+        {
+          "text": "Read more",
+          "url": "https://oyonx.com/#:~:text=What%20we%20do."
+        },
+        {
+          "text": "Oyonx Blog | UI/UX, Web Development & Marketing Insights ...\n\noyonx.com\nhttps://oyonx.com › blog",
+          "url": "https://oyonx.com/blog"
+        },
+        {
+          "text": "Web Design Portfolio UAE | Oyonx Case Studies & Projects\n\noyonx.com\nhttps://www.oyonx.com › Portfolio",
+          "url": "https://www.oyonx.com/portfolio"
+        },
+        {
+          "text": "Read more",
+          "url": "https://www.oyonx.com/portfolio#:~:text=From%20brand%20identity%20to%20full,engineering%2C%20without%20the%20agency%20overhead."
+        },
+        {
+          "text": "Design Studio Abu Dhabi & Dubai | About Oyonx\n\noyonx.com\nhttps://www.oyonx.com › About",
+          "url": "https://www.oyonx.com/about-us"
+        },
+        {
+          "text": "Read more",
+          "url": "https://www.oyonx.com/about-us#:~:text=Oyonx%20surpassed%20expectations%20with%20perfect"
+        },
+        {
+          "text": "UI/UX Design Agency UAE & Web Design Company Dubai | Oyonx\n\noyonx.com\nhttps://www.oyonx.com › web-development-agency-uae",
+          "url": "https://www.oyonx.com/blog/web-development-agency-uae"
+        }
+      ],
+      "query": "site:oyonx.com",
+      "title": "site:oyonx.com - Google Search"
+    }
+  ]
+}
