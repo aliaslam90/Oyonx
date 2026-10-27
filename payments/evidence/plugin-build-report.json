@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "fontstyle-pro",
+    "source": "/Users/apple/Downloads/Figma-Plugins/FontStyle Pro",
+    "entry": "code.js",
+    "guards": 1,
+    "transformedFiles": 1,
+    "sourceEntrySha256": "42eba7c77455735e58e821ebc3d45b819eee6c0b9acc03301bf09c0324208195",
+    "releaseSha256": "60311c47180ce614587b6530317977691142c1884501fc92a29dd790c09f13db",
+    "figmaTested": false
+  },
+  {
+    "slug": "colorstyle-pro",
+    "source": "/Users/apple/Downloads/Figma-Plugins/ColorStylePro",
+    "entry": "code.js",
+    "guards": 2,
+    "transformedFiles": 2,
+    "sourceEntrySha256": "f849b77d593628028ababd2b0b5b8836b1722f9bc575c50ac7aa8baef42a423b",
+    "releaseSha256": "3e5132ee7a2d475f96cc9ac0c0a4ed8a8bfc34aed6baaf6c9531455b89feee9d",
+    "figmaTested": false
+  },
+  {
+    "slug": "font-replacer-pro",
+    "source": "/Users/apple/Downloads/Figma-Plugins/Font-replacer-Pro",
+    "entry": "src/main.ts",
+    "guards": 1,
+    "transformedFiles": 2,
+    "sourceEntrySha256": "6dd2990ccd838374cd4b4157b4e67e8d64fe78ed14e71e7e63c5918d93640ea5",
+    "releaseSha256": "eeb8657e40c176f70f7ebd78cbb974fadb99fdf555de872f2b3f7cac9e19d110",
+    "figmaTested": false
+  },
+  {
+    "slug": "design-system-creator",
+    "source": "/Users/apple/Downloads/FewClicks/work/repos/design-system-creator",
+    "entry": "code.js",
+    "guards": 2,
+    "transformedFiles": 1,
+    "sourceEntrySha256": "0c36d1f2b6aea6fb711d0aef589e0df6f50b0348a71dff693d1294583a8217d2",
+    "releaseSha256": "ecd4ff399fe4b7dcb72b1eb58f7f3be0234108b86c4140eb42828960f4e78782",
+    "figmaTested": false
+  },
+  {
+    "slug": "iconsset-pro",
+    "source": "/Users/apple/Downloads/Figma-Plugins/iconSet Pro",
+    "entry": "src/code.ts",
+    "guards": 1,
+    "transformedFiles": 1,
+    "sourceEntrySha256": "1ca4447423370c1a5fa75e256e43509e5f39ae27327e326a686041115106c868",
+    "releaseSha256": "9c6f6ef09ea1bbb121956af8407a1319d42c1cfae93639f4a6dc6039d79210b2",
+    "figmaTested": false
+  },
+  {
+    "slug": "stickynotes-pro",
+    "source": "/Users/apple/Downloads/Figma-Plugins/Sticky Notes Widget Pro",
+    "entry": "src/code.tsx",
+    "guards": 2,
+    "transformedFiles": 1,
+    "sourceEntrySha256": "2abb1ed555874f094e7932f3f7422425330a892c51bf2b135047d5063a7bd5c5",
+    "releaseSha256": "de786edbbcab3c882367d057ef939d641c16f0763130ba707feaddafa6246260",
+    "figmaTested": false
+  },
+  {
+    "slug": "mindmap-pro",
+    "source": "/Users/apple/Downloads/Figma-Plugins/MindMap Pro",
+    "entry": "widget-src/code.tsx",
+    "guards": 6,
+    "transformedFiles": 1,
+    "sourceEntrySha256": "b4e794e054a49cd6a6314be3180af2c387f7c4b71cce90f7f7ffe21255a63049",
+    "releaseSha256": "5f11cc2c8b99e0a4d616d714fcbfb32addae7930fb7dfad894192b6b7f948486",
+    "figmaTested": false
+  }
+]
