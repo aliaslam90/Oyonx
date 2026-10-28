@@ -1,0 +1,27 @@
+{
+  "currency": "USD",
+  "billingInterval": "month",
+  "individualAmountMinor": 200,
+  "bundle": {
+    "code": "current-seven-monthly",
+    "amountMinor": 1500,
+    "productSlugs": [
+      "font-replacer-pro",
+      "stickynotes-pro",
+      "design-system-creator",
+      "fontstyle-pro",
+      "colorstyle-pro",
+      "mindmap-pro",
+      "iconsset-pro"
+    ],
+    "includesFutureProducts": false,
+    "yearlyAmountMinor": 18000
+  },
+  "trial": {
+    "freeUsesPerPlugin": 5,
+    "resetPolicy": "lifetime",
+    "requiresAccount": true
+  },
+  "checkoutEnabled": false,
+  "individualYearlyAmountMinor": 2400
+}

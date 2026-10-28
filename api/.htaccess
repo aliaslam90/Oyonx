@@ -1,0 +1,4 @@
+Options -Indexes
+# Apache/FastCGI must preserve the bearer header used by sandboxed Figma plugins.
+CGIPassAuth On
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
