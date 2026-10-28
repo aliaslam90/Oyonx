@@ -123,5 +123,20 @@
       "verifiedOn": "2026-10-26"
     },
     "statusVerifiedOn": "2026-10-26"
+  },
+  {
+    "slug": "frameforge",
+    "name": "FrameForge: Web to Editable Figma",
+    "category": "extensions",
+    "description": "Capture webpages and paste them into Figma as native, editable layers, with Auto Layout for compatible layouts. No Figma plugin is required for the main workflow.",
+    "features": [
+      "Capture the visible area, a full loaded page or a selected element.",
+      "Bring editable text, frames, supported vectors and images into Figma.",
+      "Inspect designs in-page, with optional JSON and SVG exports."
+    ],
+    "status": "published",
+    "communityUrl": "https://chromewebstore.google.com/detail/frameforge-web-to-editabl/laffmolpohkfebliaekpgofiilopaaoj",
+    "stats": null,
+    "statusVerifiedOn": "2026-10-29"
   }
 ]
