@@ -16,11 +16,11 @@ export function PluginsPage() {
     jsx.jsx('section',{className:'plugins-hero relative overflow-hidden',children:jsx.jsxs(motion.div,{initial:{opacity:0,y:40},animate:{opacity:1,y:0},transition:{duration:.9,ease:[.25,.46,.45,.94]},className:'max-w-[950px] mx-auto text-center px-6',children:[
       jsx.jsx('p',{className:'text-neutral-400 text-[0.78rem] tracking-[0.15em] uppercase mb-5',children:'Tools by Oyonx'}),
       jsx.jsxs('h1',{className:'mb-6',children:[
-        jsx.jsx('span',{className:'block text-[clamp(2.5rem,6.5vw,5.5rem)] leading-[1.08] tracking-[-0.02em] text-neutral-400',style:{...headingFont,fontWeight:300},children:'Figma tools & browser extensions.'}),
-        jsx.jsx('span',{className:'block text-[clamp(2.5rem,6.5vw,5.5rem)] leading-[1.08] tracking-[-0.03em] text-black mt-1',style:{...headingFont,fontWeight:800},children:'Less busywork. More design.'})
+        jsx.jsx('span',{className:'plugins-hero-line leading-[1.08] tracking-[-0.02em] text-neutral-400',style:{...headingFont,fontWeight:300},children:'Less busywork.'}),
+        jsx.jsx('span',{className:'plugins-hero-line leading-[1.08] tracking-[-0.03em] text-black mt-1',style:{...headingFont,fontWeight:800},children:'More room to create.'})
       ]}),
       jsx.jsx('p',{className:'text-neutral-500 text-[0.95rem] md:text-[1.05rem] max-w-xl mx-auto leading-relaxed mb-8',children:'Practical tools for the work you do every day. Manage typography, build palettes, find icons and bring ideas together, across your canvas and browser.'}),
-      jsx.jsx('a',{href:'#plugin-collection',className:buttonClass,style:{fontWeight:600},children:'Explore the Collection →'})
+      jsx.jsx('a',{href:'#plugin-collection',className:buttonClass,style:{fontWeight:600},children:'Explore the Collection'})
     ]})}),
     jsx.jsx('section',{id:'plugin-collection',className:'py-24 lg:py-32 bg-white',style:{scrollMarginTop:96},'aria-labelledby':'plugins-collection-heading',children:jsx.jsxs('div',{className:'max-w-[1200px] mx-auto px-6 lg:px-10',children:[
       jsx.jsxs(motion.div,{...fade,className:'plugins-collection-heading mb-8',children:[
@@ -37,7 +37,7 @@ export function PluginsPage() {
           jsx.jsx('p',{className:'text-neutral-500 text-[0.85rem] leading-relaxed',children:product.description}),
           product.stats&&jsx.jsx('p',{className:'plugins-stats text-neutral-500 text-[0.78rem]',children:product.stats.users+' users'+(product.stats.likes!==null?' · '+product.stats.likes+(product.stats.likes==='1'?' like':' likes'):'' )}),
           jsx.jsxs('details',{className:'plugins-details',children:[jsx.jsx('summary',{children:'Explore features'}),jsx.jsx('ul',{children:product.features.map(feature=>jsx.jsx('li',{children:feature},feature))})]}),
-          jsx.jsx('div',{className:'plugins-card-action',children:product.status==='published'?jsx.jsx('a',{href:product.communityUrl,target:'_blank',rel:'noopener noreferrer',className:'plugins-community-link inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full text-[0.82rem] bg-black text-white hover:opacity-90 transition-opacity',style:{fontWeight:600},'aria-label':'View '+product.name+' on '+(product.category==='extensions'?'Chrome Web Store':'Figma')+' (opens in a new tab)',children:product.category==='extensions'?'View on Chrome Web Store ↗':'View on Figma ↗'}):jsx.jsxs('div',{children:[jsx.jsx('span',{className:'plugins-review-badge',children:'Under review'}),jsx.jsx('p',{className:'text-neutral-500 text-[0.78rem] mt-3',children:'Available after Figma approval.'})]})})
+          jsx.jsx('div',{className:'plugins-card-action',children:product.status==='published'?jsx.jsx('a',{href:product.communityUrl,target:'_blank',rel:'noopener noreferrer',className:'plugins-community-link inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full text-[0.82rem] bg-black text-white hover:opacity-90 transition-opacity',style:{fontWeight:600},'aria-label':'View '+product.name+' on '+(product.category==='extensions'?'Chrome Web Store':'Figma')+' (opens in a new tab)',children:product.category==='extensions'?'View on Chrome Web Store':'View on Figma'}):jsx.jsxs('div',{children:[jsx.jsx('span',{className:'plugins-review-badge',children:'Under review'}),jsx.jsx('p',{className:'text-neutral-500 text-[0.78rem] mt-3',children:'Available after Figma approval.'})]})})
         ]})
       ]},product.slug))})
     ]})}),
@@ -45,7 +45,7 @@ export function PluginsPage() {
       jsx.jsx('p',{className:'text-neutral-500 text-[0.78rem] tracking-[0.15em] uppercase mb-5',children:'Plugin support'}),
       jsx.jsxs('h2',{className:'text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.12] tracking-[-0.02em] text-white',style:headingFont,children:[jsx.jsx('span',{style:{fontWeight:300},children:'Need a hand '}),jsx.jsx('span',{className:'italic',style:{fontWeight:700},children:'with a tool?'})]}),
       jsx.jsx('p',{className:'text-neutral-400 text-[0.95rem] mt-6 mb-8 max-w-md leading-relaxed',children:'Ask a question, report an issue or tell us what would make your workflow better. We’d like to hear from you.'}),
-      jsx.jsx('a',{href:'mailto:info@oyonx.com?subject=Oyonx%20plugin%20support',className:'inline-flex items-center gap-2 px-8 py-4 rounded-full text-black bg-white text-[0.9rem] hover:opacity-90 transition-opacity',style:{fontWeight:700},children:'Get in Touch →'})
+      jsx.jsx('a',{href:'mailto:info@oyonx.com?subject=Oyonx%20plugin%20support',className:'inline-flex items-center gap-2 px-8 py-4 rounded-full text-black bg-white text-[0.9rem] hover:opacity-90 transition-opacity',style:{fontWeight:700},children:'Get in Touch'})
     ]})})
   ]});
 }

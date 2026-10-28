@@ -1,0 +1,26 @@
+/* Scoped layout additions; typography, components and colors use Oyonx's existing stylesheet. */
+.oyonx-plugins .plugins-hero{padding-top:176px;padding-bottom:80px}
+.oyonx-plugins .plugins-collection-heading{display:flex;align-items:end;justify-content:space-between;gap:24px}
+.oyonx-plugins .plugins-collection-heading p{flex-shrink:0;padding-bottom:5px}
+.oyonx-plugins .plugins-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.oyonx-plugins .plugins-card{min-width:0;align-self:start}
+.oyonx-plugins .plugins-cover{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center}
+.oyonx-plugins .plugins-details{margin-top:24px;border-top:1px solid #e5e5e5;padding-top:16px;font-size:.82rem;color:#525252}
+.oyonx-plugins .plugins-details summary{cursor:pointer;font-weight:600;color:#000;list-style:none;display:flex;align-items:center;justify-content:space-between}
+.oyonx-plugins .plugins-details summary::-webkit-details-marker{display:none}
+.oyonx-plugins .plugins-details summary:after{content:'+';font-size:20px;font-weight:400}
+.oyonx-plugins .plugins-details[open] summary:after{content:'−'}
+.oyonx-plugins .plugins-details ul{list-style:disc;padding-left:18px;margin-top:16px;line-height:1.7}
+.oyonx-plugins .plugins-details li+li{margin-top:8px}
+.oyonx-plugins :is(a,button,summary):focus-visible{outline:2px solid currentColor;outline-offset:5px}
+@media(min-width:768px) and (max-width:1023px){.oyonx-plugins .plugins-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:767px){.oyonx-plugins .plugins-hero{padding-top:144px;padding-bottom:24px}.oyonx-plugins .plugins-grid{grid-template-columns:1fr}.oyonx-plugins .plugins-collection-heading{align-items:start;flex-direction:column;gap:16px}}
+@media(prefers-reduced-motion:reduce){.oyonx-plugins [style]{animation-duration:.01ms!important;transition-duration:.01ms!important}.oyonx-plugins article,.oyonx-plugins .plugins-hero>div,.oyonx-plugins .plugins-collection-heading{opacity:1!important;transform:none!important}}
+
+.oyonx-plugins .plugins-card{display:flex;flex-direction:column;align-self:stretch}
+.oyonx-plugins .plugins-card-body{display:flex;flex-direction:column;flex:1}
+.oyonx-plugins .plugins-stats{margin-top:20px}
+.oyonx-plugins .plugins-card-action{margin-top:auto;padding-top:24px}
+.oyonx-plugins .plugins-review-badge{display:inline-flex;align-items:center;border:1px solid #e5e5e5;border-radius:999px;padding:8px 14px;font-size:.75rem;color:#525252;font-weight:500}
+
+.oyonx-plugins .plugins-hero-line{display:block;white-space:nowrap;font-size:clamp(1.25rem,6vw,5.5rem)}
