@@ -134,12 +134,12 @@
   {
     "id": "plugins",
     "path": "/plugins",
-    "title": "Figma Plugins & Widgets | Oyonx",
-    "description": "Explore Oyonx Figma plugins and widgets for typography, color palettes, icons, sticky notes and mind mapping. Practical tools for better design workflows.",
-    "h1": "Figma plugins & widgets. Less busywork. More design.",
-    "ogTitle": "Figma Plugins & Widgets | Oyonx",
-    "ogDescription": "Explore Oyonx Figma plugins and widgets for typography, color palettes, icons, sticky notes and mind mapping. Practical tools for better design workflows.",
-    "twitterTitle": "Figma Plugins & Widgets | Oyonx",
-    "twitterDescription": "Explore Oyonx Figma plugins and widgets for typography, color palettes, icons, sticky notes and mind mapping. Practical tools for better design workflows."
+    "title": "Figma Plugins & Browser Extensions | Oyonx",
+    "description": "Explore Oyonx Figma plugins, widgets and the FrameForge Chrome extension for editable web-to-Figma capture, typography, palettes, icons and mind mapping.",
+    "h1": "Figma tools & browser extensions. Less busywork. More design.",
+    "ogTitle": "Figma Plugins & Browser Extensions | Oyonx",
+    "ogDescription": "Explore Oyonx Figma plugins, widgets and the FrameForge Chrome extension for editable web-to-Figma capture, typography, palettes, icons and mind mapping.",
+    "twitterTitle": "Figma Plugins & Browser Extensions | Oyonx",
+    "twitterDescription": "Explore Oyonx Figma plugins, widgets and the FrameForge Chrome extension for editable web-to-Figma capture, typography, palettes, icons and mind mapping."
   }
 ]
