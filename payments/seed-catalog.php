@@ -4,6 +4,8 @@ if(PHP_SAPI!=='cli'){http_response_code(404);exit;}
 require dirname(__DIR__).'/server/billing/bootstrap.php';
 $catalog=json_decode(file_get_contents(__DIR__.'/catalog.json'),true);
 $products=json_decode(file_get_contents(dirname(__DIR__).'/scripts/plugins/products.json'),true);
+// Showcase additions do not automatically become billable products.
+$products=array_values(array_filter($products,fn($product)=>in_array($product['slug'],$catalog['bundle']['productSlugs'],true)));
 $db=billing_db();$db->beginTransaction();
 try {
  foreach($products as $product) {
