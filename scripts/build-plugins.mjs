@@ -15,7 +15,7 @@ const products=JSON.parse(read('scripts/plugins/products.json'));
 const routes=JSON.parse(read('seo/routes.json'));
 const route=routes.find(route=>route.path==='/plugins');
 if(!route)throw new Error('Missing /plugins route metadata');
-const metadata={...route,keywords:'Oyonx Figma plugins, Figma widgets, design tools',breadcrumbs:[{name:'Home',path:'/'},{name:'Plugins',path:'/plugins'}]};
+const metadata={...route,keywords:'Oyonx Figma plugins, Figma widgets, Chrome browser extensions, FrameForge, design tools',breadcrumbs:[{name:'Home',path:'/'},{name:'Plugins',path:'/plugins'}]};
 const revision=createHash('sha256').update(template+css+JSON.stringify(products)+JSON.stringify(metadata)+baseline+fs.readFileSync(fileURLToPath(import.meta.url),'utf8')).digest('hex').slice(0,12);
 const name='index-plugins-'+revision+'.js';
 const moduleName='PluginsPage-'+revision+'.js';
